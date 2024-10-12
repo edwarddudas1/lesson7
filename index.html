@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body> 
+        <h1>Contact Manager</h1> 
+     
+        <form id="contactForm"> 
+            <input type="hidden" id="index" value=""> 
+            <div> 
+                <label>First Name:</label> 
+                <input type="text" id="firstName" required> 
+            </div> 
+            <div> 
+                <label>Last Name:</label> 
+                <input type="text" id="lastName" required> 
+            </div> 
+            <div> 
+                <label>Phone:</label> 
+                <input type="text" id="phone" required> 
+            </div> 
+            <div> 
+                <label>Email:</label> 
+                <input type="email" id="email" required> 
+            </div> 
+            <button type="submit">Save Contact</button> 
+        </form> 
+     
+        <h2>Contact List</h2> 
+        <ul id="contactList"></ul> 
+     
+        
+
+    <!-- <form action="" method="get" class="form-example">
+
+        <div class="form">
+            <label for="name">Enter your name: <input type="text" name="name"></label>
+        </div>
+
+        <div class="form">
+            <label for="surname">Enter your surname: <input type="text" surname="surname"></label>
+        </div>
+
+        <div class="form">
+            <label for="phoneNumber">Enter your phoneNumber: <input type="number" phoneNumber="phoneNumber"></label>
+        </div>
+
+        <div class="form">
+            <label for="email">Enter your email: <input type="text"></label>
+        </div>
+
+    </form> -->
+    <script src="./script.js"></script> 
+</body>
+</html>
